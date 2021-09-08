@@ -74,3 +74,5 @@ def Inference(x, step, max_seq):
         y_zip.append(y_h) 
         print('seq', i+1, lam_out[0].numpy(), halt.numpy())
     return np.mean(np.array(y_zip), 0)   
+
+#
