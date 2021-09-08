@@ -75,4 +75,4 @@ def prior_m(lamb, max_train_step):
     prior = np.reshape(pri, (1,max_train_step,1))
     return prior
     
- 
+#
